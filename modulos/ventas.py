@@ -1,7 +1,7 @@
 import streamlit as st
 from modulos.config.conexion import obtener_conexion
 
-def mostrar_venta():
+def mostrar_ventas():
     st.header("🛒 Registrar venta simple")
 
     try:
