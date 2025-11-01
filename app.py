@@ -14,8 +14,7 @@ if seleccion == "Ventas":
     mostrar_venta()  # Corregido: mostrar_venta() → mostrar_ventas()
 elif seleccion == "Otra opción":
     st.write("Has seleccionado otra opción.")  # Aquí podrías agregar el contenido de otras opciones
-    # Si la sesión está iniciada, mostrar el contenido de ventas
-    mostrar_venta()
+   
 else:
     # Si no hay sesión iniciada, mostrar el login
     login()
