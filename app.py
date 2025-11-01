@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from modulos.ventas import mostrar_ventas  # Corregido: mostrar_venta → mostrar_ventas
+from modulos.ventas import mostrar_venta  # Corregido: mostrar_venta → mostrar_ventas
 from modulos.login import login
 
 # Comprobamos si la sesión ya está iniciada
